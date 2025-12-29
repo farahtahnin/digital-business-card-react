@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #23252C;
+}
+/*Info component CSS Styling*/
+.img-details {
+  width: 317px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.name {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-block: 5px;
+}
+.role {
+  font-weight: 400px;
+  font-style: regular;
+  font-size: 12.8px;
+  text-align: center;
+  color: #F47D27;
+}
+.website {
+   font-weight: 400px;
+  font-style: regular;
+  font-size: 10.24px;
+  text-align: center;
+  color: #4A4E74;
+  text-decoration: none;
+  display: block;
+}
+.email-button {
+  background-color: #FFFFFF;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  margin: 10px;
+  border: solid 1px #D1D5DB;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.email-icon {
+  width: 16px;
+  margin-right: 3px;
+}
+.linkedin-icon {
+   width: 16px;
+  margin-right: 3px;
+   color: white;
+}
+.linkedin-button {
+  background-color: #297FE5;
+  color: white;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  margin: 5px;
+  border: solid 1px #D1D5DB;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.contact-buttons{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+main {
+  margin-top: 44px;
+  max-width: 317px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+/*About/Interest Component CSS*/
+.main-content {
+  max-width: 247px;
+  margin: 5px;
+}
+.main-content-header {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 16px;
+  color: #2B283A;
+}
+.main-content-description {
+  font-weight: 400;
+  font-style: regular;
+  font-size: 10.24px;
+  color: #4A4E74;
+  line-height: 150%;
+}
+/*Footer Styling*/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+  background-color: #D5D4D8;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footer-img {
+  margin: 10px;
+}

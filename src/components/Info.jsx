@@ -1,7 +1,9 @@
 export default function Info() {
     return (
        <div>
-            <img className="img-details" src="/src/assets/headshot.png" alt="Headshot"/>
+            <div className="image-container">
+                <img className="img-details" src="/src/assets/headshot-1.png" alt="Headshot"/>
+            </div>
             <p className="name">Laura Smith</p>
             <p className="role">Front End Developer</p>
             <a href="" className="website">laurensmith.website</a>
